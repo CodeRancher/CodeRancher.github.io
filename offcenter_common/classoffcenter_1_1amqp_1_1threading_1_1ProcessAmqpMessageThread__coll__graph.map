@@ -1,0 +1,5 @@
+<map id="offcenter::amqp::threading::ProcessAmqpMessageThread&lt; Data, DataType &gt;" name="offcenter::amqp::threading::ProcessAmqpMessageThread&lt; Data, DataType &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="21,184,243,240"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1common_1_1threading_1_1RunningThreadBlockable.html" title=" " alt="" coords="5,95,259,136"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1common_1_1threading_1_1RunningThread.html" title=" " alt="" coords="37,5,227,47"/>
+</map>

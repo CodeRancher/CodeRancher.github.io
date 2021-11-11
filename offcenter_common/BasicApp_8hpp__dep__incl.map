@@ -1,0 +1,10 @@
+<map id="/home/sbrauer/dev/github/offcenter_common/lib/framework/include/offcenter/common/framework/application/BasicApp.hpp" name="/home/sbrauer/dev/github/offcenter_common/lib/framework/include/offcenter/common/framework/application/BasicApp.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="131,5,402,76"/>
+<area shape="rect" id="node2" href="$BasicAppFoundation_8cpp.html" title=" " alt="" coords="5,131,248,187"/>
+<area shape="rect" id="node3" href="$AMQPApp_8hpp.html" title=" " alt="" coords="273,124,543,195"/>
+<area shape="rect" id="node4" href="$AMQPApp_8cpp.html" title=" " alt="" coords="144,250,387,306"/>
+<area shape="rect" id="node5" href="$DistributedLoggingApp_8hpp.html" title=" " alt="" coords="411,243,690,313"/>
+<area shape="rect" id="node6" href="$DistributedLoggingApp_8cpp.html" title=" " alt="" coords="289,369,532,425"/>
+<area shape="rect" id="node7" href="$DistributedStatusApp_8hpp.html" title=" " alt="" coords="557,361,827,432"/>
+<area shape="rect" id="node8" href="$DistributedStatusApp_8cpp.html" title=" " alt="" coords="571,480,813,536"/>
+</map>

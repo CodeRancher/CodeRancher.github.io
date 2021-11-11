@@ -1,0 +1,8 @@
+<map id="/home/sbrauer/dev/github/offcenter_common/lib/amqp_server/src" name="/home/sbrauer/dev/github/offcenter_common/lib/amqp_server/src">
+<area shape="rect" id="node1" href="dir_4759f25a4dad270b9c3b6cd934d7edd9.html" title="src" alt="" coords="70,52,142,100"/>
+<area shape="rect" id="node2" href="dir_2f8d8bbfb706757133a11cb427f5cb14.html" title="rest_server" alt="" coords="5,148,100,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000035_000018.html" title="1" alt="" coords="77,129,87,144"/>
+<area shape="rect" id="node3" href="dir_b3c34db306d4c9403cdfc1c3cabeda21.html" title="include" alt="" coords="125,148,197,196"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000035_000014.html" title="2" alt="" coords="141,121,150,135"/>
+<area shape="rect" id="clust1" href="dir_156d564dee6740777bbf93f5052c900c.html" title="amqp_server" alt="" coords="53,16,159,111"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="offcenter::amqp::AMQPProducer" name="offcenter::amqp::AMQPProducer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,185,235,212"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1amqp_1_1SessionProducer.html" title=" " alt="" coords="29,81,211,123"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1amqp_1_1Session.html" title=" " alt="" coords="29,5,211,32"/>
+</map>

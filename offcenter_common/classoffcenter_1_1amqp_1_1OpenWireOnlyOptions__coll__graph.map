@@ -1,0 +1,8 @@
+<map id="offcenter::amqp::OpenWireOnlyOptions" name="offcenter::amqp::OpenWireOnlyOptions">
+<area shape="rect" id="node1" title=" " alt="" coords="19,455,217,496"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1amqp_1_1Options.html" title=" " alt="" coords="5,299,188,326"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1amqp_1_1BooleanElement.html" title=" " alt="" coords="213,292,399,333"/>
+<area shape="rect" id="node4" href="$classoffcenter_1_1amqp_1_1InternalElementWithDefault.html" title=" " alt="" coords="205,187,407,243"/>
+<area shape="rect" id="node5" href="$classoffcenter_1_1amqp_1_1InternalElement.html" title=" " alt="" coords="215,96,397,137"/>
+<area shape="rect" id="node6" href="$classoffcenter_1_1amqp_1_1IInternalElement.html" title="Base interface for all option elements." alt="" coords="213,5,399,47"/>
+</map>

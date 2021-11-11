@@ -1,0 +1,5 @@
+<map id="offcenter::amqp::WireFormatElement" name="offcenter::amqp::WireFormatElement">
+<area shape="rect" id="node1" title="Wire format option element." alt="" coords="5,184,215,225"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1amqp_1_1InternalElement.html" title=" " alt="" coords="19,95,201,136"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1amqp_1_1IInternalElement.html" title="Base interface for all option elements." alt="" coords="17,5,203,47"/>
+</map>

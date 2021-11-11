@@ -1,0 +1,6 @@
+<map id="offcenter::common::framework::application::IApp" name="offcenter::common::framework::application::IApp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,216,80"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1common_1_1amqpserver_1_1IAmqpServerApp.html" title=" " alt="" coords="264,5,481,47"/>
+<area shape="rect" id="node4" href="$classoffcenter_1_1common_1_1restserver_1_1IRestServerApp.html" title=" " alt="" coords="275,71,471,112"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1common_1_1amqpserver_1_1IAmqpManagedServerApp.html" title=" " alt="" coords="529,5,807,47"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="offcenter::amqp::Options" name="offcenter::amqp::Options">
+<area shape="rect" id="node1" title=" " alt="" coords="5,307,188,334"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1amqp_1_1ConnectionOptions.html" title=" " alt="" coords="246,5,453,47"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1amqp_1_1FailoverTransportOptions.html" title=" " alt="" coords="257,71,441,112"/>
+<area shape="rect" id="node4" href="$classoffcenter_1_1amqp_1_1GeneralOptions.html" title=" " alt="" coords="257,136,441,177"/>
+<area shape="rect" id="node5" href="$classoffcenter_1_1amqp_1_1GeneralTransportOptions.html" title=" " alt="" coords="257,201,441,243"/>
+<area shape="rect" id="node6" href="$classoffcenter_1_1amqp_1_1OpenWireOnlyOptions.html" title=" " alt="" coords="251,267,448,308"/>
+<area shape="rect" id="node7" href="$classoffcenter_1_1amqp_1_1PrefetchPolicyOptions.html" title=" " alt="" coords="256,332,443,373"/>
+<area shape="rect" id="node8" href="$classoffcenter_1_1amqp_1_1RedeliveryPolicyOptions.html" title=" " alt="" coords="248,397,451,439"/>
+<area shape="rect" id="node9" href="$classoffcenter_1_1amqp_1_1SocketOptions.html" title=" " alt="" coords="236,463,463,490"/>
+<area shape="rect" id="node10" href="$classoffcenter_1_1amqp_1_1TransactionOptions.html" title=" " alt="" coords="246,515,453,556"/>
+<area shape="rect" id="node11" href="$classoffcenter_1_1amqp_1_1WireFormatProtocolOptions.html" title=" " alt="" coords="245,580,454,621"/>
+</map>

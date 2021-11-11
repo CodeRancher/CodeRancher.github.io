@@ -1,0 +1,28 @@
+<map id="/home/sbrauer/dev/github/offcenter_common/lib" name="/home/sbrauer/dev/github/offcenter_common/lib">
+<area shape="rect" id="node2" href="dir_3191ff83ffda2812e34f3e0ff51af94e.html" title="amqp" alt="" coords="199,351,271,399"/>
+<area shape="rect" id="node4" href="dir_270447e73df96a9849848ad04e1894f2.html" title="common" alt="" coords="325,447,403,495"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000002_000024.html" title="1" alt="" coords="318,422,327,436"/>
+<area shape="rect" id="node11" href="dir_24742d6cce6ebe3fcb5b9438b6db4c0b.html" title="threading" alt="" coords="193,447,277,495"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000002_000069.html" title="1" alt="" coords="238,421,248,436"/>
+<area shape="rect" id="node3" href="dir_156d564dee6740777bbf93f5052c900c.html" title="amqp_server" alt="" coords="312,63,419,111"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000013_000002.html" title="7" alt="" coords="231,324,240,338"/>
+<area shape="rect" id="node6" href="dir_1d825645dbd431155fb2d5881eaff6ad.html" title="framework" alt="" coords="245,255,339,303"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000013_000028.html" title="4" alt="" coords="311,233,320,248"/>
+<area shape="rect" id="node7" href="dir_8ea16c85e47add47e2dd3ba37f5f171f.html" title="program_options" alt="" coords="322,351,454,399"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000013_000057.html" title="2" alt="" coords="388,324,398,339"/>
+<area shape="rect" id="node8" href="dir_2f8d8bbfb706757133a11cb427f5cb14.html" title="rest_server" alt="" coords="390,159,485,207"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000013_000018.html" title="1" alt="" coords="411,132,420,146"/>
+<area shape="rect" id="node5" href="dir_f514d2e88e0fff29720d3f3f04cda7be.html" title="distributed_system" alt="" coords="141,63,288,111"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000028_000002.html" title="15" alt="" coords="257,332,274,347"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000028_000024.html" title="5" alt="" coords="332,420,342,434"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000028_000057.html" title="8" alt="" coords="353,324,362,339"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000057_000024.html" title="1" alt="" coords="378,424,387,438"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000018_000024.html" title="1" alt="" coords="419,441,428,455"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000018_000028.html" title="3" alt="" coords="343,244,352,259"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000018_000057.html" title="2" alt="" coords="394,326,403,340"/>
+<area shape="rect" id="node9" href="dir_5bc54ff5c12554130f731ccd51d8106b.html" title="schedule" alt="" coords="37,63,117,111"/>
+<area shape="rect" id="node10" href="dir_81f50ef67680ba4b28fc5f9deb35f8ac.html" title="soci" alt="" coords="416,255,488,303"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000006_000057.html" title="1" alt="" coords="416,333,426,348"/>
+<area shape="rect" id="clust2" href="dir_e1e2631452101a63da0d79ab2f99999d.html" alt="" coords="27,52,525,505"/>
+<area shape="rect" id="clust1" href="dir_9f9cfbe6165441404b5f132ea79c3f84.html" title="offcenter_common" alt="" coords="16,16,536,516"/>
+</map>

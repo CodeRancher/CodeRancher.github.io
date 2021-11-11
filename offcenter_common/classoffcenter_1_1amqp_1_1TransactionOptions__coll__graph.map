@@ -1,0 +1,8 @@
+<map id="offcenter::amqp::TransactionOptions" name="offcenter::amqp::TransactionOptions">
+<area shape="rect" id="node1" title=" " alt="" coords="15,396,221,437"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1amqp_1_1Options.html" title=" " alt="" coords="5,299,188,326"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1amqp_1_1IntegerElement.html" title=" " alt="" coords="213,292,391,333"/>
+<area shape="rect" id="node4" href="$classoffcenter_1_1amqp_1_1InternalElementWithDefault.html" title=" " alt="" coords="207,187,397,243"/>
+<area shape="rect" id="node5" href="$classoffcenter_1_1amqp_1_1InternalElement.html" title=" " alt="" coords="211,96,393,137"/>
+<area shape="rect" id="node6" href="$classoffcenter_1_1amqp_1_1IInternalElement.html" title="Base interface for all option elements." alt="" coords="209,5,395,47"/>
+</map>

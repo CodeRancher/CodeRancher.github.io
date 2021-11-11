@@ -1,0 +1,6 @@
+<map id="offcenter::common::framework::application::DistributedStatusApp" name="offcenter::common::framework::application::DistributedStatusApp">
+<area shape="rect" id="node1" title=" " alt="" coords="8,288,181,344"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1common_1_1framework_1_1application_1_1DistributedLoggingApp.html" title=" " alt="" coords="5,184,184,240"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1common_1_1framework_1_1application_1_1AMQPApp.html" title=" " alt="" coords="8,80,181,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="53,5,136,32"/>
+</map>
