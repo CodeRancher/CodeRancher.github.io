@@ -1,0 +1,5 @@
+var classoffcenter_1_1trading_1_1persistoandaforexdatatocsv_1_1PersistOandaForexDataToCSVProgramOptions =
+[
+    [ "PersistOandaForexDataToCSVProgramOptions", "classoffcenter_1_1trading_1_1persistoandaforexdatatocsv_1_1PersistOandaForexDataToCSVProgramOptions.html#a027e5a61914990e0860ba9454d07a0a4", null ],
+    [ "~PersistOandaForexDataToCSVProgramOptions", "classoffcenter_1_1trading_1_1persistoandaforexdatatocsv_1_1PersistOandaForexDataToCSVProgramOptions.html#a48bdd47441a84128e341befd3320d228", null ]
+];

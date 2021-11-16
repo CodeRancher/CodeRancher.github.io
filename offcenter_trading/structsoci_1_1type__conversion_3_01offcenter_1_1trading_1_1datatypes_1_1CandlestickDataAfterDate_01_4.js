@@ -1,0 +1,4 @@
+var structsoci_1_1type__conversion_3_01offcenter_1_1trading_1_1datatypes_1_1CandlestickDataAfterDate_01_4 =
+[
+    [ "base_type", "structsoci_1_1type__conversion_3_01offcenter_1_1trading_1_1datatypes_1_1CandlestickDataAfterDate_01_4.html#a009c96d1272d61334c0c1a3d4ce49870", null ]
+];

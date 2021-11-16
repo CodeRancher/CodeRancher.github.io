@@ -1,0 +1,5 @@
+var classoffcenter_1_1trading_1_1oandapersistencemanager_1_1OandaPersistenceManagerProgramOptions =
+[
+    [ "OandaPersistenceManagerProgramOptions", "classoffcenter_1_1trading_1_1oandapersistencemanager_1_1OandaPersistenceManagerProgramOptions.html#a06ccde5d032feb0b91c69a5f4905cf1f", null ],
+    [ "~OandaPersistenceManagerProgramOptions", "classoffcenter_1_1trading_1_1oandapersistencemanager_1_1OandaPersistenceManagerProgramOptions.html#a563bea4fe7a6a890eb1bd4bf75abfd91", null ]
+];

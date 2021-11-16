@@ -1,0 +1,10 @@
+<map id="/home/sbrauer/dev/github/offcenter_trading/lib/data_types_amqp/include/offcenter/trading/datatypes/CandlestickTimeRangeAmqp.hpp" name="/home/sbrauer/dev/github/offcenter_trading/lib/data_types_amqp/include/offcenter/trading/datatypes/CandlestickTimeRangeAmqp.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="310,5,553,91"/>
+<area shape="rect" id="node2" href="$SignalCurrentCandleTriggerApp_8cpp.html" title=" " alt="" coords="5,146,284,217"/>
+<area shape="rect" id="node3" href="$CandlestickTimeRangeAmqp_8cpp.html" title=" " alt="" coords="309,146,554,217"/>
+<area shape="rect" id="node4" href="$ProcessCurrentCandleRange_8hpp.html" title=" " alt="" coords="579,139,839,224"/>
+<area shape="rect" id="node5" href="$SignalCurrentCandleApp_8hpp.html" title=" " alt="" coords="435,272,702,357"/>
+<area shape="rect" id="node8" href="$ProcessCurrentCandleRange_8cpp.html" title=" " alt="" coords="726,279,969,350"/>
+<area shape="rect" id="node6" href="$signal__current__candle__app_8cpp.html" title=" " alt="" coords="334,405,561,476"/>
+<area shape="rect" id="node7" href="$SignalCurrentCandleApp_8cpp.html" title=" " alt="" coords="585,405,795,476"/>
+</map>

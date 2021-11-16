@@ -1,0 +1,4 @@
+var structsoci_1_1type__conversion_3_01offcenter_1_1trading_1_1datatypes_1_1oanda_1_1Instrument_01_4 =
+[
+    [ "base_type", "structsoci_1_1type__conversion_3_01offcenter_1_1trading_1_1datatypes_1_1oanda_1_1Instrument_01_4.html#a2ccd4b6abd90929093852eee31e96695", null ]
+];

@@ -95,18 +95,125 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="title">offcenter_common </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The offcenter_oanda project is a C++ library that provides access to the <a href="https://developer.oanda.com/rest-live-v20/introduction/">OANDA v20 REST API</a>.</p>
+<div class="textblock"><p>The offcenter_common project is a set of C++ libraries of support classes and routines for other offcenter applications and libraries.</p>
+<h1>Documentation</h1>
+<p>[API Reference]()</p>
+<h1>Installation</h1>
+<p>This project is hosted on github under user <a href="https://github.com/CodeRancher">CodeRancher</a>.</p>
+<h2>Clone</h2>
+<p>To clone this repository use the git command: </p><div class="fragment"><div class="line">git clone https://github.com/CodeRancher/offcenter_common.git</div>
+</div><!-- fragment --><h2>Build</h2>
+<p>The most simple build, if dependencies are installed globally. </p><div class="fragment"><div class="line">cd offcenter_common</div>
+<div class="line">mkdir build</div>
+<div class="line">cd build</div>
+<div class="line">cmake ..</div>
+<div class="line">make</div>
+</div><!-- fragment --><p>A more complicated build if the libraries are in non-standard locations. </p><div class="fragment"><div class="line">cd offcenter_common</div>
+<div class="line">mkdir build</div>
+<div class="line">cd build</div>
+<div class="line">cmake \</div>
+<div class="line">    -DCMAKE_INSTALL_PREFIX=&lt;installation path&gt; \</div>
+<div class="line">    -DBUILD_DOC=&lt;ON|OFF&gt; \</div>
+<div class="line">    -DCMAKE_PREFIX_PATH=&quot;&lt;nlohmann json path&gt;;&lt;cpprestsdk path&gt;&quot; \</div>
+<div class="line">    -DBOOST_ROOT=&lt;boost root&gt; \</div>
+<div class="line">    -DEASYLOGGINGPP_ROOT=&lt;easyloggingpp root&gt; \</div>
+<div class="line">    -DEASYLOGGINGPP_USE_STATIC_LIBS=&lt;ON|OFF&gt; \</div>
+<div class="line">    -DAPR_ALTLOCATION=&lt;alt location for apr&gt; \</div>
+<div class="line">    -DGTEST_ROOT=&lt;googletest root&gt; \</div>
+<div class="line">    ..</div>
+<div class="line">make install</div>
+</div><!-- fragment --><p>Important make commands.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Command </th><th class="markdownTableHeadNone">Action  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">make </td><td class="markdownTableBodyNone">Build library. Build documentation if ${BUILD_DOC}=ON  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">make install </td><td class="markdownTableBodyNone">Build library and install to ${CMAKE_INSTALL_PREFIX}. Build documentation if ${BUILD_DOC}=ON  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">make doc_doxygen </td><td class="markdownTableBodyNone">Build library. Build documentation if ${BUILD_DOC}=ON  </td></tr>
+</table>
+<p>Important cmake build variables.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Variable </th><th class="markdownTableHeadNone">Description </th><th class="markdownTableHeadNone">Examples  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://cmake.org/cmake/help/latest/variable/CMAKE_INSTALL_PREFIX.html">CMAKE_INSTALL_PREFIX</a> </td><td class="markdownTableBodyNone">Install directory for <code>make install</code>. </td><td class="markdownTableBodyNone">e.g. ${HOME}/libs  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://cmake.org/cmake/help/latest/variable/CMAKE_PREFIX_PATH.html">CMAKE_PREFIX_PATH</a> </td><td class="markdownTableBodyNone">Directories to search during <code>make</code>. </td><td class="markdownTableBodyNone">${HOME}/libs/cmake/nlohmann_json;${HOME}/libs/cmake/cpprestsdk  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">BUILD_DOC </td><td class="markdownTableBodyNone">Build Doxygen documentation during <code>make doc_doxygen</code>. Can be 'ON' or 'OFF'. </td><td class="markdownTableBodyNone">ON  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://cmake.org/cmake/help/latest/module/FindBoost.html">BOOST_ROOT</a> </td><td class="markdownTableBodyNone">Boost library location. </td><td class="markdownTableBodyNone">e.g. ${HOME}/libs  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/amrayn/easyloggingpp/blob/master/cmake/FindEASYLOGGINGPP.cmake">EASYLOGGINGPP_ROOT</a> </td><td class="markdownTableBodyNone">Easylogging++ library location. </td><td class="markdownTableBodyNone">e.g. ${HOME}/libs  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/amrayn/easyloggingpp/blob/master/cmake/FindEASYLOGGINGPP.cmake">EASYLOGGINGPP_USE_STATIC_LIBS</a> </td><td class="markdownTableBodyNone">If ${EASYLOGGINGPP_USE_STATIC_LIBS} is ON then static libs are searched. </td><td class="markdownTableBodyNone">ON  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/CodeRancher/offcenter_common/blob/main/cmake/FindAPR.cmake">APR_ALTLOCATION</a> </td><td class="markdownTableBodyNone">Alternate location to search for libraries/executables </td><td class="markdownTableBodyNone">e.g. ${HOME}/libs  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://cmake.org/cmake/help/latest/module/FindGTest.html">GTEST_ROOT</a> </td><td class="markdownTableBodyNone">The root directory of the Google Test installation. </td><td class="markdownTableBodyNone">e.g. ${HOME}/libs  </td></tr>
+</table>
+<h1>Dependencies</h1>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Library </th><th class="markdownTableHeadNone">Minimum Version </th><th class="markdownTableHeadNone">License  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/nlohmann/json">nlohmann json</a> </td><td class="markdownTableBodyNone">3.9.1 </td><td class="markdownTableBodyNone"><a href="https://github.com/nlohmann/json/blob/develop/LICENSE.MIT">MIT</a>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/microsoft/cpprestsdk">C++ REST SDK</a> </td><td class="markdownTableBodyNone">2.10.16 </td><td class="markdownTableBodyNone"><a href="https://github.com/microsoft/cpprestsdk/blob/master/license.txt">MIT</a>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://www.boost.org/">Boost</a> </td><td class="markdownTableBodyNone">1.74 </td><td class="markdownTableBodyNone"><a href="https://www.boost.org/users/license.html">Boost Software License 1.0</a>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/amrayn/easyloggingpp">Easylogging++</a> </td><td class="markdownTableBodyNone">9.97.0 </td><td class="markdownTableBodyNone"><a href="https://github.com/amrayn/easyloggingpp/blob/master/LICENSE">MIT</a>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/SOCI">SOCI</a> </td><td class="markdownTableBodyNone">v4.0.1 </td><td class="markdownTableBodyNone"><a href="https://github.com/mariadb-corporation/mariadb-connector-cpp/blob/master/COPYING">GNU LGPL version 2.1</a>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/google/googletest">GoogleTest</a> </td><td class="markdownTableBodyNone">1.10.0 </td><td class="markdownTableBodyNone"><a href="https://github.com/google/googletest/blob/master/LICENSE">BSD 3-Clause "New" or "Revised" License (modified)</a>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://www.openssl.org">OpenSSL</a> </td><td class="markdownTableBodyNone">1.1.1 </td><td class="markdownTableBodyNone">[](<a href="https://www.openssl.org/source/license-openssl-ssleay.txt">https://www.openssl.org/source/license-openssl-ssleay.txt</a>)  </td></tr>
+</table>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Tools  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://www.doxygen.nl">Doxygen</a>  </td></tr>
+</table>
 <h1>Libraries</h1>
 <h2>amqp</h2>
+<p>Simplifies connecting to and using an ActiveMQ server. This is a framework to create producers and consumers, automatically receive messages, and simplify configuration of connections to the server.</p>
 <h2>amqp_server</h2>
+<p>Simplified application framework that will create a connection to the ActiveMQ server, accept configuration options from the command line or file, and process messages. The general idea is to create a class inherited from IAmqpServerApp, then override several methods where processing of messages can occur.</p>
 <h2>common</h2>
+<p>Common classes used across other libraries.</p>
 <h2>distributed_system</h2>
+<p>Not implemented</p>
+<p>This will be a management system for microservices. It will allow remote nodes to be started, stopped, paused, and resumed.</p>
 <h2>framework</h2>
+<p>A group of frameworks that simplifies creation of applications. Integrates handling of command line options and config files.</p>
+<p>Pending Development: Remote logging and monitoring of applications.</p>
 <h2>program_options</h2>
+<p>Support for simplifying command line options and config files within applications. Used extensively in the framework.</p>
 <h2>rest_server</h2>
+<p>Simplifies creating a REST server. Has pregenerated command line/config file options for initializing the server.</p>
 <h2>schedule</h2>
+<p>Not implemented</p>
+<p>This library will support creation of recurring tasks at intervals. This will be used with heartbeats between different microservices nodes.</p>
 <h2>soci</h2>
+<p>Support for creating SOCI connections to databases.</p>
 <h2>threading</h2>
+<p>Support for application threads, thread pools, and manipulating threads.</p>
+<h1>Roadmap</h1>
+<p><b>Missing Functionality</b></p>
+<p>Add missing functionality.</p>
+<p><b>Testing</b></p>
+<p>The library needs testing from end-to-end. There are basic tests and examples for some of the most used calls but the rest of the system needs validation.</p>
+<p><b>Documentation</b></p><ol type="1">
+<li>Create the missing documenation.</li>
+<li>Add examples.</li>
+</ol>
+<h1>License</h1>
+<p><a href="https://github.com/CodeRancher/offcenter_oanda/blob/main/LICENSE">Apache License, Version 2.0</a> </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,0 +1,27 @@
+var structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs =
+[
+    [ "commission_commission", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a3c5579b903de4670be998342350da565", null ],
+    [ "commission_minimum_commission", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#aeb063b055050e89d8981a94aa8d9b340", null ],
+    [ "commission_units_traded", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a1bb7866b7a6668af17d7e475f1f1f5c1", null ],
+    [ "display_name", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a6bde78de205fbba4611d72f9db8d9fab", null ],
+    [ "display_precision", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#adc96f16ec2413f4bcf19b81c3d8942cd", null ],
+    [ "financing_longRate", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a977427e8122fcad50d53bf90e1e46429", null ],
+    [ "financing_shortRate", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a3b3b04bc0576c3d565a9599937b6c7bf", null ],
+    [ "financingDaysOfWeek", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a8bf4104f74ff378e59a90675c1690c7e", null ],
+    [ "guaranteed_stop_loss_order_execution_premium", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a231418be6a4f9f84630bb7448c27c859", null ],
+    [ "guaranteed_stop_loss_order_level_restriction_priceRange", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a142ab34aeb8984a437e637e9e4ee4aff", null ],
+    [ "guaranteed_stop_loss_order_level_restriction_volume", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#afbc1c3bf767a335924baf4ce816fc054", null ],
+    [ "guaranteed_stop_loss_order_mode", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a354ed73e3e47ea8c4108cde643932abd", null ],
+    [ "instrument_id", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#aa496b2b6c033686405df1e73335e06b5", null ],
+    [ "instrument_type_id", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a24f3417fccf8bebaf3315718b32adeea", null ],
+    [ "margin_rate", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#af5671210efd8ad81d1f750ed16489c40", null ],
+    [ "maximum_order_units", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a4c7fdef2b5ed4f8cf3405947f7311565", null ],
+    [ "maximum_position_size", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#ab70ea731b322c34fd8da8413f7d13fdb", null ],
+    [ "maximum_trailing_stop_distance", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a6f6f44a9cd6f723e10f79c55b1532e8c", null ],
+    [ "minimum_guaranteed_stop_loss_distance", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#aec79f1782fcc4534ccbc4290a44a177d", null ],
+    [ "minimum_trade_size", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#afadefee09acb58f43d69e37c0fdb2182", null ],
+    [ "minimum_trailing_stop_distance", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a58f78d1ebebc8eb6093b019edee08afa", null ],
+    [ "name", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#a07f0b65364e8caed9d47db712c8d5337", null ],
+    [ "pip_location", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#af03ba530e18a13b002be340359b0401d", null ],
+    [ "trade_units_precision", "structoffcenter_1_1trading_1_1datatypes_1_1oanda_1_1InstrumentWithIDs.html#aa0543f1787d8864fa45e20dd6ad3f3d5", null ]
+];

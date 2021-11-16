@@ -1,0 +1,6 @@
+var classoffcenter_1_1trading_1_1processcandlestickhierarchy_1_1ProcessCandlestickHierarchyProgramOptions =
+[
+    [ "ProcessCandlestickHierarchyProgramOptions", "classoffcenter_1_1trading_1_1processcandlestickhierarchy_1_1ProcessCandlestickHierarchyProgramOptions.html#a5d825813c6588e46b2ff3d8ade52753c", null ],
+    [ "~ProcessCandlestickHierarchyProgramOptions", "classoffcenter_1_1trading_1_1processcandlestickhierarchy_1_1ProcessCandlestickHierarchyProgramOptions.html#a6ea3caa33741ab5f591e85dd1611b64d", null ],
+    [ "validateOptions", "classoffcenter_1_1trading_1_1processcandlestickhierarchy_1_1ProcessCandlestickHierarchyProgramOptions.html#ace30f0fe76bf36a459b9a1b9848978f7", null ]
+];

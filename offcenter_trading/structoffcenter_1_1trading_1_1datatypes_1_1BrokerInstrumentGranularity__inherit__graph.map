@@ -1,0 +1,7 @@
+<map id="offcenter::trading::datatypes::BrokerInstrumentGranularity" name="offcenter::trading::datatypes::BrokerInstrumentGranularity">
+<area shape="rect" id="node1" title=" " alt="" coords="5,85,221,141"/>
+<area shape="rect" id="node2" href="$structoffcenter_1_1trading_1_1datatypes_1_1BrokerInstrumentGranularityAmqp.html" title=" " alt="" coords="269,5,485,61"/>
+<area shape="rect" id="node3" href="$structoffcenter_1_1trading_1_1datatypes_1_1CandlestickDataSeriesByName.html" title=" " alt="" coords="272,85,483,141"/>
+<area shape="rect" id="node4" href="$structoffcenter_1_1trading_1_1datatypes_1_1CandlestickTimeRange.html" title=" " alt="" coords="271,165,483,221"/>
+<area shape="rect" id="node5" href="$structoffcenter_1_1trading_1_1datatypes_1_1CandlestickTimeRangeAmqp.html" title=" " alt="" coords="533,165,745,221"/>
+</map>

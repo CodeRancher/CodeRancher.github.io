@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['broker_27',['Broker',['../classoffcenter_1_1trading_1_1datatypes_1_1Broker.html',1,'offcenter::trading::datatypes']]],
+  ['broker_2ecpp_28',['Broker.cpp',['../data__types_2src_2Broker_8cpp.html',1,'(Global Namespace)'],['../trading_2src_2Broker_8cpp.html',1,'(Global Namespace)']]],
+  ['broker_2ehpp_29',['Broker.hpp',['../data__types_2include_2offcenter_2trading_2datatypes_2Broker_8hpp.html',1,'(Global Namespace)'],['../trading_2include_2offcenter_2trading_2amqp_2Broker_8hpp.html',1,'(Global Namespace)']]],
+  ['broker_5fdata_5fsource_5fname_30',['broker_data_source_name',['../structoffcenter_1_1trading_1_1datatypes_1_1BrokerInstrumentGranularity.html#ab406edecca678e3c5ea07c4472a532e7',1,'offcenter::trading::datatypes::BrokerInstrumentGranularity']]],
+  ['broker_5fname_31',['broker_name',['../structoffcenter_1_1trading_1_1datatypes_1_1BrokerInstrumentGranularity.html#a28945d92973d7d8e9afdcb92081dd0c5',1,'offcenter::trading::datatypes::BrokerInstrumentGranularity']]],
+  ['brokerconsumer_32',['BrokerConsumer',['../classoffcenter_1_1trading_1_1amqp_1_1BrokerConsumer.html',1,'offcenter::trading::amqp']]],
+  ['brokerdatasource_33',['BrokerDataSource',['../structoffcenter_1_1trading_1_1datatypes_1_1BrokerDataSource.html',1,'offcenter::trading::datatypes']]],
+  ['brokerdatasourceread_34',['brokerDataSourceRead',['../classoffcenter_1_1trading_1_1db_1_1TradingDB.html#a7c18bac3b79451b5e6dd915e521888c0',1,'offcenter::trading::db::TradingDB']]],
+  ['brokerdb_35',['BrokerDB',['../structoffcenter_1_1trading_1_1datatypes_1_1BrokerDB.html',1,'offcenter::trading::datatypes']]],
+  ['brokerinstrumentgranularity_36',['BrokerInstrumentGranularity',['../structoffcenter_1_1trading_1_1datatypes_1_1BrokerInstrumentGranularity.html',1,'offcenter::trading::datatypes']]],
+  ['brokerinstrumentgranularityamqp_37',['BrokerInstrumentGranularityAmqp',['../structoffcenter_1_1trading_1_1datatypes_1_1BrokerInstrumentGranularityAmqp.html',1,'offcenter::trading::datatypes']]],
+  ['brokerproducer_38',['BrokerProducer',['../classoffcenter_1_1trading_1_1amqp_1_1BrokerProducer.html',1,'offcenter::trading::amqp']]],
+  ['brokerserver_39',['BrokerServer',['../classoffcenter_1_1trading_1_1datatypes_1_1BrokerServer.html',1,'offcenter::trading::datatypes']]],
+  ['brokerserver_2ecpp_40',['BrokerServer.cpp',['../data__types_2src_2BrokerServer_8cpp.html',1,'(Global Namespace)'],['../trading_2src_2BrokerServer_8cpp.html',1,'(Global Namespace)']]],
+  ['brokerserver_2ehpp_41',['BrokerServer.hpp',['../data__types_2include_2offcenter_2trading_2datatypes_2BrokerServer_8hpp.html',1,'(Global Namespace)'],['../trading_2include_2offcenter_2trading_2amqp_2BrokerServer_8hpp.html',1,'(Global Namespace)']]],
+  ['brokersread_42',['brokersRead',['../classoffcenter_1_1trading_1_1db_1_1TradingDB.html#a1d6af20ee9dc85ce7df4866ecf14c4b8',1,'offcenter::trading::db::TradingDB']]],
+  ['buildcandlestick_43',['BuildCandlestick',['../classoffcenter_1_1trading_1_1processing_1_1BuildCandlestick.html',1,'offcenter::trading::processing']]],
+  ['buildcandlestick_2ecpp_44',['BuildCandlestick.cpp',['../BuildCandlestick_8cpp.html',1,'']]],
+  ['buildcandlestick_2ehpp_45',['BuildCandlestick.hpp',['../BuildCandlestick_8hpp.html',1,'']]],
+  ['buildcandlesticks_46',['BuildCandlesticks',['../classoffcenter_1_1trading_1_1processing_1_1BuildCandlesticks.html',1,'offcenter::trading::processing']]],
+  ['buildcandlesticks_2ecpp_47',['BuildCandlesticks.cpp',['../BuildCandlesticks_8cpp.html',1,'']]],
+  ['buildcandlesticks_2ehpp_48',['BuildCandlesticks.hpp',['../BuildCandlesticks_8hpp.html',1,'']]],
+  ['buildhighertimeframecandle_49',['BuildHigherTimeframeCandle',['../classoffcenter_1_1trading_1_1amqp_1_1BuildHigherTimeframeCandle.html',1,'offcenter::trading::amqp']]],
+  ['buildhighertimeframecandle_2ecpp_50',['BuildHigherTimeframeCandle.cpp',['../BuildHigherTimeframeCandle_8cpp.html',1,'']]],
+  ['buildhighertimeframecandle_2ehpp_51',['BuildHigherTimeframeCandle.hpp',['../BuildHigherTimeframeCandle_8hpp.html',1,'']]]
+];

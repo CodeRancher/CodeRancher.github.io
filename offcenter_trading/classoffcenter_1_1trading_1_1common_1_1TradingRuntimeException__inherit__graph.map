@@ -1,0 +1,10 @@
+<map id="offcenter::trading::common::TradingRuntimeException" name="offcenter::trading::common::TradingRuntimeException">
+<area shape="rect" id="node1" title="Trading runtime exception." alt="" coords="192,181,453,223"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1trading_1_1common_1_1DuplicateRecord.html" title="Duplicate Record runtime exception." alt="" coords="525,5,727,47"/>
+<area shape="rect" id="node4" href="$classoffcenter_1_1trading_1_1common_1_1EmptyRecordset.html" title="Empty Recordset runtime exception." alt="" coords="525,71,727,112"/>
+<area shape="rect" id="node5" href="$classoffcenter_1_1trading_1_1common_1_1InvalidJsonConversionException.html" title="Invalid Json Conversion Exception." alt="" coords="507,137,745,193"/>
+<area shape="rect" id="node6" href="$classoffcenter_1_1trading_1_1common_1_1TradingJsonException.html" title="Trading Json exception." alt="" coords="509,217,743,259"/>
+<area shape="rect" id="node7" href="$classoffcenter_1_1trading_1_1oandapersistenceclient_1_1HttpResponseException.html" title="Oanda Persistence Client Exception." alt="" coords="533,283,719,339"/>
+<area shape="rect" id="node8" href="$classoffcenter_1_1trading_1_1oandapersistenceclient_1_1OandaPersistenceClientException.html" title="Oanda Persistence Client Exception." alt="" coords="501,363,751,419"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,189,144,215"/>
+</map>

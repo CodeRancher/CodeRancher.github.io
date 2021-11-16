@@ -1,0 +1,8 @@
+<map id="offcenter::trading::amqp::AMQPCommon" name="offcenter::trading::amqp::AMQPCommon">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,179,179"/>
+<area shape="rect" id="node2" href="$classoffcenter_1_1trading_1_1amqp_1_1AMQPConsumer.html" title=" " alt="" coords="262,5,473,105"/>
+<area shape="rect" id="node4" href="$classoffcenter_1_1trading_1_1amqp_1_1AMQPConsumer.html" title=" " alt="" coords="227,130,508,186"/>
+<area shape="rect" id="node5" href="$classoffcenter_1_1trading_1_1amqp_1_1AMQPProducer.html" title=" " alt="" coords="282,211,453,252"/>
+<area shape="rect" id="node3" href="$classoffcenter_1_1trading_1_1amqp_1_1BrokerConsumer.html" title=" " alt="" coords="556,27,739,83"/>
+<area shape="rect" id="node6" href="$classoffcenter_1_1trading_1_1amqp_1_1BrokerProducer.html" title=" " alt="" coords="560,211,735,252"/>
+</map>

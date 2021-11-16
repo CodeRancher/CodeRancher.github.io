@@ -1,0 +1,6 @@
+var classoffcenter_1_1trading_1_1signalcurrentcandletrigger_1_1SignalCurrentCandleTriggerProgramOptions =
+[
+    [ "SignalCurrentCandleTriggerProgramOptions", "classoffcenter_1_1trading_1_1signalcurrentcandletrigger_1_1SignalCurrentCandleTriggerProgramOptions.html#a86db06de121b656f74865a7f8a048ea9", null ],
+    [ "~SignalCurrentCandleTriggerProgramOptions", "classoffcenter_1_1trading_1_1signalcurrentcandletrigger_1_1SignalCurrentCandleTriggerProgramOptions.html#a36849f3b9918ade98f957806ab1b2241", null ],
+    [ "validateOptions", "classoffcenter_1_1trading_1_1signalcurrentcandletrigger_1_1SignalCurrentCandleTriggerProgramOptions.html#a3566c12c18907f3be976cf97182d3e25", null ]
+];
