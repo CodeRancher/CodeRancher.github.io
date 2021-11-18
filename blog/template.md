@@ -1,4 +1,4 @@
-![image](images/headshot.png width=100){: style="float: left"}
+<img src="images/headshot.png" width=100 float=left>
 # Scott Brauer
 #### Subtitle
 
