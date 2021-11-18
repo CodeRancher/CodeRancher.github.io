@@ -1,4 +1,4 @@
-![image](images/headshot.png | width=100){: style="float: left"}
+![image](images/headshot.png width=100){: style="float: left"}
 # Scott Brauer
 #### Subtitle
 
