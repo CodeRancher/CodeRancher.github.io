@@ -14,3 +14,5 @@ Welcome to the musings of CodeRancher, both in code and thought.
 
 Blog entries to come.
 
+[Template](blog/template.md)
+
