@@ -1,6 +1,4 @@
-|    |    |
-| -- | -- |
-| <img src="images/headshot.png" width="100" float="left"> | # Scott Brauer |
+<img src="images/headshot.png" width="100" float="left"> # Scott Brauer
 #### Subtitle
 
 ## <Title>
