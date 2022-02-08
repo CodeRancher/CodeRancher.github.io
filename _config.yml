@@ -1,1 +1,9 @@
 theme: jekyll-theme-slate
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - blog/entry-001-introduce_oanda_project.md
