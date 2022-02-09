@@ -1,20 +1,23 @@
-# Intro
+# Introducing a Microservices Based Automated Trading System
+<img src="images/headshot.png" align="right" width="100" height="100" style="margin: 0px 0px 10px 10px;"/>
 
-I am making my first foray into the world of releasing an open source library. I have been working on a project that will automatically monitor and trade Forex Instruments, as well as give me the data I want to see when determining the quality of a trade.
+I am introducing a microservices based trading system that will monitor Forex Instruments, automaticllay make trades, as well as give me the data as I want to see it when determining the quality of a trade.
 
-I always wanted to trade stocks but never felt knowledgable enough to have confidence in trading. I have taken some classes to learn the ins and outs of selecting trades but I have learned that my style of thinking doesn't always fit in a box with what I have been taught. The traditional technique I was taught was to look at a chart of candlestick patterns, find specific patterns, then watch for price to move back into thoses areas. If the characteristics of the specific patterns are correct, then price should behave in a statistically expected way.
+I always wanted to trade stocks but never felt knowledgable enough to have confidence in trading. I have taken classes to learn the ins and outs of selecting trades but I have learned that my style of thinking doesn't always fit in a box with what I have been taught. The traditional technique I was taught was to look at a chart of candlesticks, find specific patterns, then watch for price to move back into thoses areas. If the characteristics of the specific patterns are correct, then price should behave in a statistically expected way.
 
-Now we all know that there are forces outside our control that can affect the movement of stock prices and that sometimes they even seem random, although it is probably people/institutions with more money than you doing their thing. Now a lot of successful trading has more to do with risk management than with winning 100% of your trades. So how does this work? Consider that for all trades I risk $1X, meaning that if price goes against me for $1X that I will exit the trade and accept my loss. Now, if I structure all my trades so that if price goes my way I will profix $3X. Now I only have to be correct on 3 out of 10 trades (3*3X - 7*1X = +2X).
+Now we all know that there are forces outside our control that can affect the movement of stock prices and that sometimes they even seem random, although it is probably people/institutions with more money than you doing their thing.
+
+Now a lot of successful trading has more to do with risk management than with winning 100% of your trades. So how does this work? Consider for all trades I risk $1X, meaning that if price goes against me for $1X that I will exit the trade and accept my loss. Now, if I structure all my trades so that if price goes my way I will profix $3X. Now I only have to be correct on 3 out of 10 trades (3*3X - 7*1X = +2X).
 
 ***
 
 ## Scott's Rule #1: *Find a trading technique that can give you 30% success while profiting at 3 times risk.*
 
-Now for the first hook into why I am writing this software. I want to backtest large amounts of trading data across multiple timeframes looking for specific patterns that meet Rule #1. I want to use statistics and eventually machine learning to help me find these patterns. I wanted better control over how the data is organized and combined (more on that in a bit) so that it gives me the answers I want.
+Now for the first hook into why I am writing this software. I want to backtest large amounts of trading data across multiple timeframes looking for specific patterns that meet Rule #1. I want to use statistics and eventually machine learning to help find these patterns. I want better control over how the data is organized and combined so that it gives me the answers I want.
 
 ***
 
-## Scott's Rule #2: *Focus on ways to decrease your loss percent, not increase your win percent.*
+## Scott's Rule #2: *Focus on ways to decrease your loss, not increase your win.*
 
 Once a basic trading technique has been selected (primary patterns), it is time to find reactionary patterns in the data. These ractionary patterns may show up before, during, or after important points in the primary pattern. If the success of the reactionary pattern can be quantified then either including or excluding it will improve your success rate.
 
@@ -22,14 +25,15 @@ Finding these reactionary patterns requires a lot of analysis/reanalysis while t
 
 ***
 
-## Scott's Rule #3: *Candlestick timeframes are based on a manmade construct and have little to do with trend.*
+## Scott's Rule #3: *Candlestick timeframes are based on a manmade construct.*
 
-<img src="images/candlestick_pattern_4min_0offset.png" align="left" width="100" height="100"/>
-<img src="images/candlestick_pattern_4min_2offset.png" align="left" width="100" height="100"/>
-<img src="https://cdn.mos.cms.futurecdn.net/rQkQZ6pDZbEHz23rxckWPm-970-80.jpg.webp" align="right" width="100" height="100"/>
+<img src="images/candlestick_pattern_4min_0offset.png" align="left" width="100" height="100" style="margin: 0px 6px 0px 0px;"/>
+<img src="images/candlestick_pattern_4min_2offset.png" align="left" width="100" height="100" style="margin: 0px 6px 0px 0px;"/>
+<img src="https://cdn.mos.cms.futurecdn.net/rQkQZ6pDZbEHz23rxckWPm-970-80.jpg.webp" align="right" width="100" height="100" style="margin: 0px 0px 0px 6px;"/>
 
-The problem with candlestick timeframes is that changing the start time for the candlesticks can affect the structure/patterns seen in the data. This is akin to the picture "My Wife and My Mother-in-Law" where one perspective shows an elderly lady while another shows a young woman. (Image credit: public domain) Which candlestick pattern is from the correct perspective?
+The problem with candlestick timeframes is that changing the start time for the candlesticks can affect the structure/patterns seen in the data. This is akin to the picture "My Wife and My Mother-in-Law" where one perspective shows an elderly lady while another shows a young woman. (Image credit: public domain) Which candlestick pattern is from the correct perspective? Non of them really.
 
+<img src="images/CandlestickVariableWidth.png" align="left" width="100" height="100" style="margin: 0px 6px 0px 0px;"/>
 That is why I believe that a better way to analyze the data is by letting the data define the candlesticks instead of time defining the candlesticks. The candlesticks need to allow for a variable width that matches the actual time that the data is rising (uptrend), staying steady (sideways), or lowering (downtrend). At this point, it becomes more of a series of mathematical equations based on a set of constants that define what a candlestick chart will look like. Because of this there needs to be a lot of analysis to determine what defines an uptrend, sideways, and downtrend so that a proper candlestick chart can be displayed.
 
 ***
@@ -38,13 +42,15 @@ That is why I believe that a better way to analyze the data is by letting the da
 
 The current candlestick chart shows very little data (open, high, low, close) and how data flows over time. The typical way to show other data (indicators) is by including a bar chart, line chart, or other way to display the data in relation to the graph. 
 
-<img src="images/CandlestickWithBarChart.png" align="left" width="100" height="200"/>
+<img src="images/CandlestickWithBarChart.png" align="left" width="100" height="200" style="margin: 0px 6px 6px 0px;"/>
 I want to use a modified bar chart that can include multiple data sets (bar charts, etc.) related to the entire range of prices at that time point. This can include data such as average velocity during the candlestick, time spent at that price, or a multitude of other types of data. I believe that showing data in this format will start to group data in horizontal bands that can be significant to making trading decisions.
 <br clear="left"/>
 
-<img src="images/GraphWithHorizData.png" align="left" width="100" height="100"/>
+<img src="images/GraphWithHorizData.png" align="right" width="300" height="200" style="margin: 0px 6px 6px 0px;"/>
 The second type of chart I want to use shows the high and low at each time with a line graph but will also display important data in horizontal bands continuing across the chart. This will show data that reoccurs or is pertinent to specific levels.
 <br clear="left"/>
+
+These new chart types will require *large* amounts of data. Yet another reason to be in charge of the data and it's format to make its display as fast as possible.
 
 ***
 
@@ -54,19 +60,24 @@ My trading system is made up of three public projects and one private project. T
 
 | Library | Description |
 |:--------|:------------|
-| offcenter_common | A set of C++ libraries of support classes and routines for other offcenter application and libraries. |
-| offcenter_trading | A set of C++ applications and libraries that implement a microservices based trading system. |
-| offcenter_oanda | A C++ library that provides access to the OANDA v20 REST API. |
+| [offcenter_common](https://github.com/CodeRancher/offcenter_common) | A set of C++ libraries of support classes and routines for other offcenter applications and libraries. [Documentation](https://coderancher.github.io/offcenter_common/index.html) |
+| [offcenter_trading](https://github.com/CodeRancher/offcenter_trading) | A set of C++ applications and libraries that implement a microservices based trading system. [Documentation](https://coderancher.github.io/offcenter_trading/index.html) |
+| [offcenter_oanda](https://github.com/CodeRancher/offcenter_oanda) | A C++ library that provides access to the OANDA v20 REST API. [Documentation](https://coderancher.github.io/offcenter_oanda/index.html) |
+
+
+*All projects licensed:* [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+***
 
 ## offcenter_common
 
-The offcenter_common project is a set of C++ libraries of support classes and routines for other offcenter applications and libraries.
+The offcenter_common project is a set of libraries containing support classes and routines for other offcenter applications and libraries.
 
 ***
 
 ### amqp
 
-Simplifies connecting to and using an ActiveMQ server. This is a framework to create producers and consumers, automatically receive messages, and simplify configuration of connections to the server.
+Simplifies connecting to and using an ActiveMQ server. This is a framework to create producers and consumers, automatically receive messages, and simplify configuration of connections to the server. It also simplifies marshalling/unmarshalling data that is sent over ActiveMQ.
 [Example](https://github.com/CodeRancher/offcenter_common/tree/main/lib/amqp/example)
 
 ***
@@ -94,7 +105,7 @@ Not fully implemented.
 
 #### application
 
-A framework for a repeatable way to create applications that handle command line and config file options. It simply allows other frameworks to be stacked, each with their own set of options. It also simplifies creating different application managers to handle different initialization and shutdown strategies for other technologies such as AMQP or REST Servers.
+A framework for a repeatable way to create applications that handle command line and config file options. It simply allows other frameworks to be stacked, each with their own set of options. It also simplifies creating different application managers to handle different initialization and shutdown strategies for other technologies such as AMQP, REST Servers, or Dear ImGui applications.
 
 #### program_options
 
@@ -127,11 +138,13 @@ Supporting code to create a REST Server by simply adding handlers for specific R
 
 Supporting code to run scheduled and timed tasks.
 
+Not fully implemented.
+
 ***
 
 ### soci
 
-Shared code to manage connections and access a MySQL database using soci.
+Shared code to manage connections to and access a MySQL database using soci.
 [Example](https://github.com/CodeRancher/offcenter_common/tree/main/lib/soci/example)
 
 ***
@@ -162,7 +175,7 @@ Data types passed around the trading system.
 
 #### data_types_amqp
 
-AMQP conversion routines for data_types as they are sent and received.
+AMQP conversion routines for data_types as they are sent and received over ActiveMQ.
 
 ***
 
@@ -242,7 +255,6 @@ This application will read data from the CSV file generated by the persist_oanda
 
 A REST server that gives access to the Trading Database (both Oanda and generic trading data). The generic trading data is what is required to make trading decisions for a security, bond, or an trading intrument.
 
-Possible enhancements: In the future it might make sense to break out the Oanda and generic trading data.
 
 ***
 
@@ -274,7 +286,15 @@ This server will monitor when new instrument data is added to the system and whe
 
 #### signal_current_candle_trigger
 
-This is an application that will simulate when new data is available to be processed by the system. It is for development and system testing.
+This is an application that will simulate when new data is available for processing by the system. It is for development and system testing.
+
+***
+
+## offcenter_oanda
+
+A C++ library that provides access to the [OANDA v20 REST API](https://developer.oanda.com/rest-live-v20/introduction/).
+
+
 
 
 
@@ -287,19 +307,3 @@ This is an application that will simulate when new data is available to be proce
 License
 
 Apache License, Version 2.0
-
-***
-
-## offcenter_oanda
-
-The first project I am releasing is a C++ library that provides access to the [OANDA v20 REST API](https://developer.oanda.com/rest-live-v20/introduction/).
-
-
-
-## offcenter_trading
-
-License
-
-
-Libraries
-Problems with cpprestsdk
