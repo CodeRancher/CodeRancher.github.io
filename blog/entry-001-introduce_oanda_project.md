@@ -1,13 +1,13 @@
 # Introducing a Microservices Based Automated Trading System
 <img src="images/headshot.png" align="right" width="100" height="100" style="margin: 0px 0px 10px 10px;"/>
 
-I am introducing a microservices based trading system that will monitor Forex Instruments, automaticllay make trades, as well as give me the data as I want to see it when determining the quality of a trade.
+I am introducing a microservices based trading system that will monitor Forex Instruments, automatically make trades, as well as give me the data as I want to see it when determining the quality of a trade.
 
-I always wanted to trade stocks but never felt knowledgable enough to have confidence in trading. I have taken classes to learn the ins and outs of selecting trades but I have learned that my style of thinking doesn't always fit in a box with what I have been taught. The traditional technique I was taught was to look at a chart of candlesticks, find specific patterns, then watch for price to move back into thoses areas. If the characteristics of the specific patterns are correct, then price should behave in a statistically expected way.
+I always wanted to trade stocks but never felt knowledgeable enough to have confidence in trading. I have taken classes to learn the ins and outs of selecting trades but I have learned that my style of thinking doesn't always fit in a box with what I have been taught. The traditional technique I was taught was to look at a chart of candlesticks, find specific patterns, then watch for price to move back into those areas. If the characteristics of the specific patterns are correct, then price should behave in a statistically expected way.
 
 Now we all know that there are forces outside our control that can affect the movement of stock prices and that sometimes they even seem random, although it is probably people/institutions with more money than you doing their thing.
 
-Now a lot of successful trading has more to do with risk management than with winning 100% of your trades. So how does this work? Consider for all trades I risk $1X, meaning that if price goes against me for $1X that I will exit the trade and accept my loss. Now, if I structure all my trades so that if price goes my way I will profix $3X. Now I only have to be correct on 3 out of 10 trades (3*3X - 7*1X = +2X).
+Now a lot of successful trading has more to do with risk management than with winning 100% of your trades. So how does this work? Consider for all trades I risk $1X, meaning that if price goes against me for $1X that I will exit the trade and accept my loss. Now, if I structure all my trades so that if price goes my way I will profit $3X. Now I only have to be correct on 3 out of 10 trades (3*3X - 7*1X = +2X).
 
 ***
 
@@ -19,9 +19,9 @@ Now for the first hook into why I am writing this software. I want to backtest l
 
 ## Scott's Rule #2: *Focus on ways to decrease your loss, not increase your win.*
 
-Once a basic trading technique has been selected (primary patterns), it is time to find reactionary patterns in the data. These ractionary patterns may show up before, during, or after important points in the primary pattern. If the success of the reactionary pattern can be quantified then either including or excluding it will improve your success rate.
+Once a basic trading technique has been selected (primary patterns), it is time to find reactionary patterns in the data. These reactionary patterns may show up before, during, or after important points in the primary pattern. If the success of the reactionary pattern can be quantified then either including or excluding it will improve your success rate.
 
-Finding these reactionary patterns requires a lot of analysis/reanalysis while tweeking constants. This is another reason why I am working on my trading software. I want control of all the data so that I can porform as much research as necessary (including machine learning in the future) to find these patterns.
+Finding these reactionary patterns requires a lot of analysis/reanalysis while tweaking constants. This is another reason why I am working on my trading software. I want control of all the data so that I can perform as much research as necessary (including machine learning in the future) to find these patterns.
 
 ***
 
@@ -77,7 +77,7 @@ The offcenter_common project is a set of libraries containing support classes an
 
 ### amqp
 
-Simplifies connecting to and using an ActiveMQ server. This is a framework to create producers and consumers, automatically receive messages, and simplify configuration of connections to the server. It also simplifies marshalling/unmarshalling data that is sent over ActiveMQ.
+Simplifies connecting to and using an ActiveMQ server. This is a framework to create producers and consumers, automatically receive messages, and simplify configuration of connections to the server. It also simplifies marshaling/unmarshaling data that is sent over ActiveMQ.
 [Example](https://github.com/CodeRancher/offcenter_common/tree/main/lib/amqp/example)
 
 ***
@@ -151,7 +151,7 @@ Shared code to manage connections to and access a MySQL database using soci.
 
 ### threading
 
-Supporting code to simplify threading. Simply create a class that overrides 'task' and then 'start' the reoccuring task. Can also manage an array of 'tasks'.
+Supporting code to simplify threading. Simply create a class that overrides 'task' and then 'start' the reoccurring task. Can also manage an array of 'tasks'.
 [Example](https://github.com/CodeRancher/offcenter_common/tree/main/lib/threading/example)
 
 ## offcenter_trading
@@ -181,7 +181,7 @@ AMQP conversion routines for data_types as they are sent and received over Activ
 
 #### data_types_json
 
-JSON conversion routines for data_types as they are marshalled and unmarshalled.
+JSON conversion routines for data_types as they are marshaled and unmarshaled.
 
 ***
 
@@ -247,13 +247,13 @@ When completed, it will generate simulated candlestick values (open, high, low, 
 
 Not currently implemented.
 
-This application will read data from the CSV file generated by the persist_oanda_forex_data_to_csv application and send it to the rest of the system. It is intended for developement and system testing.
+This application will read data from the CSV file generated by the persist_oanda_forex_data_to_csv application and send it to the rest of the system. It is intended for development and system testing.
 
 ***
 
 #### oanda_persistence_manager
 
-A REST server that gives access to the Trading Database (both Oanda and generic trading data). The generic trading data is what is required to make trading decisions for a security, bond, or an trading intrument.
+A REST server that gives access to the Trading Database (both Oanda and generic trading data). The generic trading data is what is required to make trading decisions for a security, bond, or an trading instrument.
 
 
 ***
@@ -293,17 +293,3 @@ This is an application that will simulate when new data is available for process
 ## offcenter_oanda
 
 A C++ library that provides access to the [OANDA v20 REST API](https://developer.oanda.com/rest-live-v20/introduction/).
-
-
-
-
-
-
-
-
-
-
-
-License
-
-Apache License, Version 2.0
