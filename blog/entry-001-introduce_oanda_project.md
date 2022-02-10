@@ -1,25 +1,25 @@
 # Introducing a Microservices Based Automated Trading System
 <img src="images/headshot.png" align="right" width="100" height="100" style="margin: 0px 0px 10px 10px;"/>
 
-I am introducing a microservices based trading system that will monitor Forex Instruments, automatically make trades, as well as give me the data as I want to see it when determining the quality of a trade.
+I am introducing a microservices based trading system that when complete will monitor Forex Instruments, automatically make trades, as well as provide custom data for determining the quality of a trade. This project has been released on GitHub.
 
-I always wanted to trade stocks but never felt knowledgeable enough to have confidence in trading. I have taken classes to learn the ins and outs of selecting trades but I have learned that my style of thinking doesn't always fit in a box with what I have been taught. The traditional technique I was taught was to look at a chart of candlesticks, find specific patterns, then watch for price to move back into those areas. If the characteristics of the specific patterns are correct, then price should behave in a statistically expected way.
+I always wanted to trade stocks but never felt knowledgeable enough to have confidence in trading. I have taken classes to learn the ins and outs of selecting trades but I have learned that my style of thinking doesn’t always fit in a box with what I have been taught. The traditional technique I was taught was to look at a chart of candlesticks, find specific patterns, then watch for price to move back into those areas. If the characteristics of the specific patterns are correct, then price should behave in a statistically expected way.
 
 Now we all know that there are forces outside our control that can affect the movement of stock prices and that sometimes they even seem random, although it is probably people/institutions with more money than you doing their thing.
-
-Now a lot of successful trading has more to do with risk management than with winning 100% of your trades. So how does this work? Consider for all trades I risk $1X, meaning that if price goes against me for $1X that I will exit the trade and accept my loss. Now, if I structure all my trades so that if price goes my way I will profit $3X. Now I only have to be correct on 3 out of 10 trades (3*3X - 7*1X = +2X).
 
 ***
 
 ## Scott's Rule #1: *Find a trading technique that can give you 30% success while profiting at 3 times risk.*
 
-Now for the first hook into why I am writing this software. I want to backtest large amounts of trading data across multiple timeframes looking for specific patterns that meet Rule #1. I want to use statistics and eventually machine learning to help find these patterns. I want better control over how the data is organized and combined so that it gives me the answers I want.
+Now a lot of successful trading has more to do with risk management than with winning 100% of your trades. So how does this work? Consider for all trades I risk $1X, meaning that if price goes against me for $1X then I will exit the trade and accept my loss. Now, if I structure all my trades so that if price goes my way I will profit $3X. Now I only have to be correct on 3 out of 10 trades (3\*3X - 7\*1X = +2X).
+
+Now for the first hook into why I am writing this software. I want to backtest large amounts of trading data across multiple timeframes looking for specific patterns that meet Rule #1. I want to use statistics and eventually machine learning to help find these patterns. I want better control over how the data is organized and combined so that it gives me the answers I need as quick as possible.
 
 ***
 
 ## Scott's Rule #2: *Focus on ways to decrease your loss, not increase your win.*
 
-Once a basic trading technique has been selected (primary patterns), it is time to find reactionary patterns in the data. These reactionary patterns may show up before, during, or after important points in the primary pattern. If the success of the reactionary pattern can be quantified then either including or excluding it will improve your success rate.
+Once a basic trading technique has been selected (primary patterns), it is time to find reactionary patterns in the data. These reactionary patterns may show up before, during, or after important points in the primary pattern. If the success of the reactionary pattern can be quantified then either including or excluding it will decrease your loss rate.
 
 Finding these reactionary patterns requires a lot of analysis/reanalysis while tweaking constants. This is another reason why I am working on my trading software. I want control of all the data so that I can perform as much research as necessary (including machine learning in the future) to find these patterns.
 
@@ -29,34 +29,34 @@ Finding these reactionary patterns requires a lot of analysis/reanalysis while t
 
 <img src="images/candlestick_pattern_4min_0offset.png" align="left" width="100" height="100" style="margin: 0px 6px 0px 0px;"/>
 <img src="images/candlestick_pattern_4min_2offset.png" align="left" width="100" height="100" style="margin: 0px 6px 0px 0px;"/>
-<img src="https://cdn.mos.cms.futurecdn.net/rQkQZ6pDZbEHz23rxckWPm-970-80.jpg.webp" align="right" width="100" height="100" style="margin: 0px 0px 0px 6px;"/>
 
-The problem with candlestick timeframes is that changing the start time for the candlesticks can affect the structure/patterns seen in the data. This is akin to the picture "My Wife and My Mother-in-Law" where one perspective shows an elderly lady while another shows a young woman. (Image credit: public domain) Which candlestick pattern is from the correct perspective? Non of them really.
+The problem with candlestick timeframes is that changing the start time for the candlesticks can affect the structure/patterns seen in the data. Which candlestick pattern is from the correct perspective? None of them really.
 
-<img src="images/CandlestickVariableWidth.png" align="left" width="100" height="100" style="margin: 0px 6px 0px 0px;"/>
-That is why I believe that a better way to analyze the data is by letting the data define the candlesticks instead of time defining the candlesticks. The candlesticks need to allow for a variable width that matches the actual time that the data is rising (uptrend), staying steady (sideways), or lowering (downtrend). At this point, it becomes more of a series of mathematical equations based on a set of constants that define what a candlestick chart will look like. Because of this there needs to be a lot of analysis to determine what defines an uptrend, sideways, and downtrend so that a proper candlestick chart can be displayed.
+
+<img src="images/CandlestickVariableWidth.png" align="right" width="100" height="100" style="margin: 0px 6px 0px 0px;"/>
+I believe there is a better way to analyze the data by letting the data define the candlesticks instead of time defining the candlesticks. The candlesticks need to allow for a variable width that matches the actual time that the data is rising (uptrend), staying steady (sideways), or lowering (downtrend). At this point, it becomes more of a series of mathematical equations based on a set of constants that define what a candlestick chart will look like. Because of this there needs to be a lot of analysis to determine what defines an uptrend, sideways, and downtrend so that a proper candlestick chart can be displayed.
 
 ***
 
 ## Scott's Rule #4: *Think outside the box with what the data is telling you.*
 
-The current candlestick chart shows very little data (open, high, low, close) and how data flows over time. The typical way to show other data (indicators) is by including a bar chart, line chart, or other way to display the data in relation to the graph. 
+The current candlestick chart gives very little information (open, high, low, close) and how data flows over time. The typical way to show other data (indicators) is by including a bar chart, line chart, or other way to display the data in relation to the graph.
 
 <img src="images/CandlestickWithBarChart.png" align="left" width="100" height="200" style="margin: 0px 6px 6px 0px;"/>
 I want to use a modified bar chart that can include multiple data sets (bar charts, etc.) related to the entire range of prices at that time point. This can include data such as average velocity during the candlestick, time spent at that price, or a multitude of other types of data. I believe that showing data in this format will start to group data in horizontal bands that can be significant to making trading decisions.
 <br clear="left"/>
 
 <img src="images/GraphWithHorizData.png" align="right" width="300" height="200" style="margin: 0px 6px 6px 0px;"/>
-The second type of chart I want to use shows the high and low at each time with a line graph but will also display important data in horizontal bands continuing across the chart. This will show data that reoccurs or is pertinent to specific levels.
+The second type of chart I want to use shows the high and low at each time with a line graph but will also display important data in horizontal bands continuing across the chart. This will show data that reoccurs or is pertinent to specific prices and highlight important levels over time.
 <br clear="left"/>
 
-These new chart types will require *large* amounts of data. Yet another reason to be in charge of the data and it's format to make its display as fast as possible.
+These new chart types will require large amounts of data. Yet another reason to be in charge of the data and it’s format to make it display as fast as possible.
 
 ***
 
 # The Libraries
 
-My trading system is made up of three public projects and one private project. The private project contains algorithms and techniques to which I have access but because of patent and other legalities I can't publish online.
+My trading system is made up of three public projects and one private project. The private project contains algorithms and techniques to which I have access but because of patent and other legalities I can’t publish online. Your first question will be "What is with the Offcenter?" It is a historical name that I have used for decades.
 
 | Library | Description |
 |:--------|:------------|
@@ -66,6 +66,13 @@ My trading system is made up of three public projects and one private project. T
 
 
 *All projects licensed:* [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Why Release It
+
+This project is still in an early stage but I wanted to release it into the world for several reasons.
+
+Find like-minded people who might be interested in joining me.
+Allow possible employers to see what I can do.
 
 ***
 
